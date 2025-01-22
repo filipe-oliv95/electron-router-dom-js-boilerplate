@@ -7,10 +7,10 @@ import json from 'electron-router-dom/package.json'
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
-    width: 400,
-    height: 200,
+    width: 1400,
+    height: 800,
     show: false,
-    alwaysOnTop: true,
+    alwaysOnTop: false,
   })
 
   registerRoute({
